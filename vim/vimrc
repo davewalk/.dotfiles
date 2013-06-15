@@ -1,0 +1,43 @@
+set nocp
+
+runtime! debian.vim
+
+if has("syntax")
+  syntax on
+endif
+
+" Visuals
+set background=dark
+
+if $COLORTERM == 'gnome-terminal'
+	set t_Co=256
+endif
+
+colors inkpot
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
+if has("autocmd")
+ filetype plugin indent on
+endif
+
+set showmatch
+
+set expandtab
+set textwidth=120
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+
+au BufRead,BufNewFile *.py set expandtab
+au BufRead,BufNewFile *.c set noexpandtab
+au BufRead,BufNewFile *.h set noexpandtab
+au BufRead,BufNewFile Makefile* set noexpandtab
+
+set backspace=indent,eol,start
+
+set ruler
+set showcmd
