@@ -1,7 +1,7 @@
-alias server='python -m SimpleHTTPServer 8080; chromium-browser localhost:8080'
+alias server='python -m SimpleHTTPServer 8080'
 
 # NAVIGATION
-alias cls='clear ls'
+alias cls='clear;ls'
 alias x='exit'
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -19,6 +19,7 @@ alias update='sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autocle
 alias untar='tar xvf'
 
 alias chrome='chromium-browser'
+alias gh='chromium-browser http://github.com/davewalk'
 
 # SAFEGUARDS
 alias ln='ln -i'
