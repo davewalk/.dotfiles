@@ -14,7 +14,7 @@ alias crime='cd; cd projects/phl-crime-mapper/app'
 alias console='cd; cd projects/arc-console'
 alias open='nautilus .'
 
-alias pushj="push"
+alias gp='git push'
 
 alias update='sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoclean; sudo apt-get autoremove -y'
 
