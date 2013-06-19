@@ -14,14 +14,15 @@ alias crime='cd; cd projects/phl-crime-mapper/app'
 alias console='cd; cd projects/arc-console'
 alias open='nautilus .'
 
+# GITHUB
 alias gp='git push'
+alias gh='chromium-browser http://github.com/davewalk?tab=repositories'
 
 alias update='sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoclean; sudo apt-get autoremove -y'
 
 alias untar='tar xvf'
 
 alias chrome='chromium-browser'
-alias gh='chromium-browser http://github.com/davewalk'
 
 # SAFEGUARDS
 alias ln='ln -i'
