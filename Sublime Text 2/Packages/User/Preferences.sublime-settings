@@ -1,10 +1,10 @@
 {
 	"default_encoding": "UTF-8",
+	"detect_slow_plugins": false,
 	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Soda Light.sublime-theme",
-	"detect_slow_plugins": false
+	"theme": "Soda Light.sublime-theme"
 }

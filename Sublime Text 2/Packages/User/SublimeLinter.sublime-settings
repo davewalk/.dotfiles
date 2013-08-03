@@ -1,5 +1,5 @@
 {
-	"sublimelinter": "save-only",
+	"sublimelinter": false,
 	"sublimelinter_executable_map":
     {
     },

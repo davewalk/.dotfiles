@@ -1,6 +1,6 @@
 # SassBeautify
 
-A Sublime Text 2 plugin that beautifies Sass files.
+A Sublime Text plugin that beautifies Sass files. (Compatible with Sublime Text 2 & 3.)
 
 ![ScreenShot](https://raw.github.com/badsyntax/SassBeautify/master/screenshot.png)
 
@@ -60,11 +60,6 @@ The following settings can be adjusted:
 This plugin should work on Linux (tested on Ubuntu), Windows (tested on Windows 7) and OSX (tested on 10.5.7).
 Please [create an issue](https://github.com/badsyntax/SassBeautify/issues) if you find it doesn't work
 as expected on your setup.
-
-## ST3
-
-You can use the experimental '[python3](https://github.com/badsyntax/SassBeautify/tree/python3)' branch 
-to run this package with ST3. (See [issue #5](https://github.com/badsyntax/SassBeautify/issues/5).)
 
 ## License
 
