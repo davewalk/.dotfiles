@@ -26,3 +26,7 @@ alias chrome='chromium-browser'
 
 # SAFEGUARDS
 alias ln='ln -i'
+
+# LANGUAGE-SPECIFIC
+alias cji='java -cp ~/clojure-1.5.1/clojure-1.5.1/clojure-1.5.1.jar clojure.main'
+
