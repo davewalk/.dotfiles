@@ -1,4 +1,4 @@
-alias server='python -m SimpleHTTPServer 8080'
+alias server='python -m SimpleHTTPServer 8000'
 
 # NAVIGATION
 alias cls='clear;ls'
