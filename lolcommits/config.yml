@@ -1,0 +1,19 @@
+---
+loltext:
+  enabled: false
+twitter:
+  enabled: false
+dot_com:
+  enabled: false
+  api_key: false
+  api_secret: false
+  repo_id: false
+tranzlate:
+  enabled: false
+uploldz:
+  enabled: false
+  endpoint: false
+  optional_key: false
+lolsrv:
+  enabled: false
+  server: false
