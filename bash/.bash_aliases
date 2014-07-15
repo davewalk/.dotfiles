@@ -25,3 +25,6 @@ alias chrome='/opt/google/chrome/google-chrome'
 
 # SAFEGUARDS
 alias ln='ln -i'
+
+# TMUX
+alias grt='~/.tmux/grt.sh'
