@@ -23,8 +23,11 @@ alias untar='tar xvf'
 
 alias chrome='/opt/google/chrome/google-chrome'
 
+alias metamap="/media/GRT_AND_MORE/metamap/public_mm/bin/skrmedpostctl start"
+
 # SAFEGUARDS
 alias ln='ln -i'
+alias lock='gnome-screensaver-command -l'
 
 # TMUX
 alias grt='~/.tmux/grt.sh'
