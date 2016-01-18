@@ -23,11 +23,6 @@ alias untar='tar xvf'
 
 alias chrome='/opt/google/chrome/google-chrome'
 
-alias metamap="/media/GRT_AND_MORE/metamap/public_mm/bin/skrmedpostctl start"
-
-# SAFEGUARDS
-alias ln='ln -i'
-alias lock='gnome-screensaver-command -l'
-
-# TMUX
-alias grt='~/.tmux/grt.sh'
+# Docker
+alias cleanup='docker rm `docker ps --no-trunc -aq`'
+alias cleanup_images='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
