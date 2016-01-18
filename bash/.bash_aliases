@@ -8,11 +8,31 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
-alias projects='cd; cd projects'
+alias up='cd ..'
+alias projects='cd $HOME/projects'
 alias dot='cd; cd .dotfiles'
 alias open='nautilus .'
 
+# Enable aliases to be sudo'ed
+alias sudo='sudo '
+
+# Since I'm a human...
+alias df='df -h'
+
+# List all files in long lasting format
+alias ls='ls -la'
+
+# SHORTCUT
+alias h='history'
+alias dl='cd $HOME/Downloads'
+alias reload='exec $SHELL -l'
+alias ngrok='$HOME/ngrok'
+alias sl='ls'
+
 # GITHUB
+alias g='git'
+alias ga='git add'
+alias gc='git commit -m'
 alias gp='git push'
 alias gh='/opt/google/chrome/google-chrome http://github.com/davewalk?tab=repositories'
 alias lol='lolcommits --enable'
