@@ -5,6 +5,10 @@ set mouse=a " Enable mouse. I know, I know...
 set autoread " Automatically update files edited from the outside
 set cc=80 " Highlight lines that are too long
 
+" Pathogen for plugin management
+call pathogen#infect()
+call pathogen#helptags()
+
 " Theming
 set background=dark
 colorscheme base16-eighties
@@ -40,4 +44,5 @@ set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
-
+" Update time for vim-gitgutter
+set updatetime=250
