@@ -46,3 +46,7 @@ set writebackup
 
 " Update time for vim-gitgutter
 set updatetime=250
+
+" Airline plugin
+let g:airline_theme = 'light'
+set laststatus=2
