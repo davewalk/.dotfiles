@@ -19,6 +19,9 @@ alias lol='lolcommits --enable'
 
 alias update='sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoclean; sudo apt-get autoremove -y'
 
+# Set all symbolic links to verbose
+alias ln='ln -v'
+
 alias untar='tar xvf'
 
 alias chrome='/opt/google/chrome/google-chrome'
