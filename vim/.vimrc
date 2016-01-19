@@ -62,3 +62,13 @@ let g:ctrlp_cmd = 'CtrlP'
 " ansible-vim plugin
 let g:ansible_attribute_highlight = 'ab'
 let g:ansible_name_highlight = 'b'
+
+" syntastic plugin recommended settings (for now)
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
