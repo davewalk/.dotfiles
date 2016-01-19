@@ -58,3 +58,7 @@ let g:vim_markdown_frontmatter = 1 " highlight YAML frontmatter from Jekyll
 " vim-ctrlp plugin
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" ansible-vim plugin
+let g:ansible_attribute_highlight = 'ab'
+let g:ansible_name_highlight = 'b'
