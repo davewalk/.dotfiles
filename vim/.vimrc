@@ -4,6 +4,7 @@ set relativenumber " Display relative line numbers instead of absolute. Use the 
 set mouse=a " Enable mouse. I know, I know...
 set autoread " Automatically update files edited from the outside
 set cc=80 " Highlight lines that are too long
+filetype plugin on
 
 " Pathogen for plugin management
 call pathogen#infect()
@@ -50,3 +51,6 @@ set updatetime=250
 " Airline plugin
 let g:airline_theme = 'light'
 set laststatus=2
+
+" vim-markdown plugin
+let g:vim_markdown_frontmatter = 1 " highlight YAML frontmatter from Jekyll
