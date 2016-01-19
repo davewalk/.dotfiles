@@ -20,7 +20,7 @@ alias sudo='sudo '
 alias df='df -h'
 
 # List all files in long lasting format
-alias ls='ls -la'
+alias ls='ls -la --color=auto'
 
 # SHORTCUT
 alias h='history'
