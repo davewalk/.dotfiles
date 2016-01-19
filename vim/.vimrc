@@ -5,6 +5,7 @@ set mouse=a " Enable mouse. I know, I know...
 set autoread " Automatically update files edited from the outside
 set cc=80 " Highlight lines that are too long
 filetype plugin on
+let mapleader = ' '
 
 " Pathogen for plugin management
 call pathogen#infect()
