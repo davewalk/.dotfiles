@@ -45,6 +45,9 @@ set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
+" Custom commands
+command Pretty %!python -m json.tool
+
 " Update time for vim-gitgutter
 set updatetime=250
 
