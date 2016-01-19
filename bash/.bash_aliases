@@ -47,5 +47,5 @@ alias untar='tar xvf'
 alias chrome='/opt/google/chrome/google-chrome'
 
 # Docker
-alias cleanup='docker rm `docker ps --no-trunc -aq`'
-alias cleanup_images='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+alias dclean='docker rm `docker ps --no-trunc -aq`'
+alias dcleani:='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
