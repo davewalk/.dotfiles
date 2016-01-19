@@ -58,3 +58,6 @@ let g:vim_markdown_frontmatter = 1 " highlight YAML frontmatter from Jekyll
 " vim-ctrlp plugin
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" NERDTree plugin
+autocmd vimenter * NERDTree " Open NERDTree automatically when opening a file
