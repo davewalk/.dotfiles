@@ -54,3 +54,7 @@ set laststatus=2
 
 " vim-markdown plugin
 let g:vim_markdown_frontmatter = 1 " highlight YAML frontmatter from Jekyll
+
+" vim-ctrlp plugin
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
