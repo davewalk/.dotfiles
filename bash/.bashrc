@@ -65,7 +65,7 @@ unset color_prompt force_color_prompt
 
 # Set the prompt to username:directory [git branch] (HH:MM) if this is an xterm
 case "$TERM" in
-xterm*|rxvt*)
+xterm*|rxvt*|screen)
     PS1="\[$(tput bold)\]\[\033[48;5;1m\]\u:\w\[$(tput sgr0)\] \[\033[38;5;1m\]\`parse_git_branch\`\[$(tput sgr0)\] (\[$(tput bold)\]\T\[$(tput sgr0)\])> "
     ;;
 *)
