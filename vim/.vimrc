@@ -20,8 +20,10 @@ syntax enable " enable syntax highlighting
 
 " Tabs and spaces
 set tabstop=4
+set shiftwidth=4 "size of an 'indent'
 set softtabstop=4
 set expandtab "tabs are spaces
+set smarttab "make 'tab' insert indents instead of tabs
 
 " UI
 set number " show line numbers
