@@ -39,7 +39,7 @@ set hlsearch " highlight matches
 " Folding
 set foldenable " enable folding
 set foldlevelstart=5 " open five fold levels by default
-set foldmethod=indent " fold based on indent level
+set foldmethod=manual " fold based on indent level
 
 " Backups
 set backup
