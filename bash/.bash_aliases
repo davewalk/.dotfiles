@@ -28,6 +28,7 @@ alias dl='cd $HOME/Downloads'
 alias reload='exec $SHELL -l'
 alias ngrok='$HOME/ngrok'
 alias sl='ls'
+alias lock='gnome-screensaver-command -l'
 
 # GITHUB
 alias g='git'
