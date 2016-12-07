@@ -165,3 +165,5 @@ function parse_git_dirty {
 		echo " 💯  "
 	fi
 }
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
