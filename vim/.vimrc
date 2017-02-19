@@ -90,5 +90,5 @@ let g:go_highlight_interfaces = 1
 
 " toggling
 nmap <F8> :TagbarToggle<CR>
-nmap <F9> :NERDTree<CR>
+nmap <F9> :NERDTreeToggle<CR>
 nmap <F7> :set invpaste<CR>
