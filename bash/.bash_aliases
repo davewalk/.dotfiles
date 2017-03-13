@@ -50,3 +50,6 @@ alias chrome='/opt/google/chrome/google-chrome'
 # Docker
 alias dclean='docker rm `docker ps --no-trunc -aq`'
 alias dcleani:='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+
+# Audio
+alias volume="amixer -D pulse sset Master $1"
