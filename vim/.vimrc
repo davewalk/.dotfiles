@@ -3,7 +3,7 @@ set relativenumber " Display relative line numbers instead of absolute. Use the 
 :au FocusLost * silent! wa " Turn on autosaving when Vim window focus is lost
 set mouse=a " Enable mouse. I know, I know...
 set autoread " Automatically update files edited from the outside
-set cc=80 " Highlight lines that are too long
+set cc=100 "  Highlight lines that are too long
 filetype plugin on
 let mapleader = ' '
 
@@ -83,13 +83,13 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_python_checkers = ['flake8', 'mypy']
 let g:syntastic_python_flake8_args = '--max-line-length=100'
 let g:syntastic_python_flake8_exe = 'python3 -m flake8'
 let g:syntastic_python_mypy_exe = 'python3 -m mypy'
-let g:synastic_debug = 3
+let g:synastic_debug = 0
 let g:syntastic_go_checkers = ['go', 'govet', 'errcheck', 'goconst']
 
 " vim-go plugin
