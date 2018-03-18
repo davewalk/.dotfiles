@@ -103,6 +103,9 @@ let g:go_highlight_interfaces = 1
 let g:go_highlight_types = 1
 let g:go_hightlight_extra_types = 1
 
+" NERDTree
+autocmd vimenter * NERDTree
+
 " toggling
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> :NERDTreeToggle<CR>
