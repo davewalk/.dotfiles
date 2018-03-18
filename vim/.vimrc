@@ -112,3 +112,6 @@ nmap <F9> :NERDTreeToggle<CR>
 nmap <F7> :set invpaste<CR>
 
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+
+" Add ident guides
+let g:indent_guides_enable_on_vim_startup = 1
