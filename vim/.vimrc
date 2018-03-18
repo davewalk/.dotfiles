@@ -83,18 +83,29 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_python_checkers = ['flake8', 'mypy']
+let g:syntastic_python_flake8_args = '--max-line-length=100'
+let g:syntastic_python_flake8_exe = 'python3 -m flake8'
+let g:syntastic_python_mypy_exe = 'python3 -m mypy'
+let g:synastic_debug = 3
+let g:syntastic_go_checkers = ['go', 'govet', 'errcheck', 'goconst']
 
 " vim-go plugin
-let g:go_fmt_fail_silenty = 1
+let g:go_fmt_fail_silenty = 0
 let g:go_auto_type_info = 1
 let g:go_fmt_command = "goimports"
 let g:go_highlight_functions = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
+let g:go_highlight_types = 1
+let g:go_hightlight_extra_types = 1
 
 " toggling
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> :NERDTreeToggle<CR>
 nmap <F7> :set invpaste<CR>
+
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2

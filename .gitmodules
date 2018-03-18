@@ -43,9 +43,9 @@
 [submodule "vim/bundle/tagbar"]
 	path = vim/bundle/tagbar
 	url = git@github.com:majutsushi/tagbar.git
-[submodule "vim/bundle/vim-godebug"]
-	path = vim/bundle/vim-godebug
-	url = git@github.com:jodosha/vim-godebug.git
 [submodule "vim/bundle/split-term"]
 	path = vim/bundle/split-term
 	url = git@github.com:vimlab/split-term.vim.git
+[submodule "vim/bundle/YouCompleteMe"]
+	path = vim/bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
