@@ -19,9 +19,6 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
-[submodule "vim/bundle/vim-hackernews"]
-	path = vim/bundle/vim-hackernews
-	url = git@github.com:ryanss/vim-hackernews.git
 [submodule "vim/bundle/ansible-vim"]
 	path = vim/bundle/ansible-vim
 	url = git@github.com:pearofducks/ansible-vim.git
