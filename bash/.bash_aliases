@@ -10,7 +10,6 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias up='cd ..'
 alias projects='cd $HOME/projects'
-alias dot='cd; cd .dotfiles'
 alias open='nautilus .'
 
 # Enable aliases to be sudo'ed
@@ -26,7 +25,6 @@ alias ls='ls -la --color=auto'
 alias h='history'
 alias dl='cd $HOME/Downloads'
 alias reload='exec $SHELL -l'
-alias ngrok='$HOME/ngrok'
 alias sl='ls'
 alias lock='gnome-screensaver-command -l'
 
